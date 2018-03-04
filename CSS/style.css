@@ -1,18 +1,44 @@
+/* STYLING FOR JUKEBOX ASSIGNMENT */
+
 body {
+	width: 70%;
+	margin: 0 auto;
+	font-weight: 100;
+	font-family: Avenir Next, 'sans-serif';
 
 }
 
-button {
-	font-family: Avenir Next, 'sans-serif';
-	font-weight: 200;
+.controls button {
 	font-size: 15px;
+	font-weight: 100;
 	width: 100px;
 	height: 100px;
+	color: #000000;
+	border: none;
+	margin: 2px;
+
+}
+
+.controls button:hover {
+	background-color: #e6f9ff;
 
 }
 
 audio {
-	width: 412px;
+	width: 641px;
 
+
+}
+
+.songoptions {
+	font-weight: 100;
+	font-size:15px;
+	margin: 100px 0px 0px 0px;
+
+}
+
+#option {
+	height: 20px;
+	width: 195px;
 
 }

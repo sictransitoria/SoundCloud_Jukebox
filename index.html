@@ -10,25 +10,46 @@
 
 	<!-- Let's Begin  -->
 
-	<div class="main-container">
-
 	<!-- AUDIO SOURCE -->
 
-		<audio id="audioPlayer" controls="audioControls">
-			<source src="canttakethis.m4a" type="audio/mp3">
-			<source src="toughestfight.m4a" type="audio/mp3">	
-		</audio>
+	<div class="main-container">
+		
+		<div class="songoptions">
+			Select a song:
+				<select id="option">
+					<option></option>
+					<option>All We Can Do</option>
+					<option>Sparks</option>
+					<option>Here I Dreamt I was an Architect</option>
+					<option>So Long, Lonesome</option>
+				</select>
+		</div>
 
 		<br>
-
-	<!-- BUTTONS -->
- 
-		<button onclick="playAudio()" type="button">Play</button>
-		<button onclick="pauseAudio()" type="button">Pause</button>
-		<button onclick="previousAudio()" type="button">Previous</button>
-		<button onclick="nextAudio()" type="button">Next</button>
 	
-     </div>
+		<div>
+			<audio id="audioplayer" controls>
+				<source src="All We Can Do" type="audio/mp3">
+				<source src="Sparks" type="audio/mp3">
+				<source src="Here I Dreamt I was an Architect" type="audio/mp3">
+				<source src="So Long, Lonesome" type="audio/mp3">
+			</audio>
+		</div>
+			
+			<br>
+
+		<!-- BUTTONS -->
+	 
+		<div class="controls">
+				<button id="play">PLAY</button>
+				<button id="pause">PAUSE</button>
+				<button id="stop">STOP</button>
+				<button id="prev">PREVIOUS</button>
+				<button id="next">NEXT</button>
+				<button id="shuffle">SHUFFLE</button>
+		</div>
+
+	</div>
 
 	<!-- SCRIPTS -->
 

@@ -2,6 +2,12 @@
 <html>
 <head>
 	<title>Jukebox Starter Kit</title>
+	<style>
+		body{
+			width: 80%;
+			background-color: oldlace;
+		}
+	</style>
 </head>
 <body>
 
