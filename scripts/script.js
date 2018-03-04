@@ -1,6 +1,6 @@
 // CUSTOM SCRIPTS FOR jukeBoxAssignment
 
-// Data Hangout
+// Data just hangin' out
 
 var audioSong;
 var option;
@@ -8,7 +8,7 @@ var playTime = 0;
 const songOptions = ["All We Can Do", "Sparks", "Here I Dreamt I was an Architect", "So Long, Lonesome"];
 var i = 0;
 
-// Grabbin' Buttons to Ignite Functionality
+// Grabbin' buttons to ignite functionality
 
 var audioPlayer = document.getElementById("audioplayer");
 var play = document.getElementById("play");
@@ -71,6 +71,7 @@ function nextSong(){
 	playSong();
 
 };
+
 function prevSong(){
 	i = (i-1)%songOptions.length;
 	if(i == -1){
@@ -85,7 +86,7 @@ function endOfTheSong(){
 			if(audioPlayer.ended == true){
 				console.log("Song Ended");
 				i++;
-				if(i == songs.length){
+				if(i == option.length){
 					audioPlayer.load();
 					i=0;
 				}
@@ -93,8 +94,27 @@ function endOfTheSong(){
 			}
 };
 
-// const shuffle = document.getElementById("shuffle");
-// shuffle.addEventListener = ("click", function() {
+var shuffle = document.getElementById("shuffle");
+shuffle.addEventListener("click", function() {
+	console.log("Shuffle Button Clicked");
+
+	var currentIndex = songOptions.length, 
+					   randomIndex, 
+					   temporaryValue;
+
+	while (0 !== currentIndex) {
+
+	randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
 
 
-// }
+    temporaryValue = songOptions[currentIndex];
+   	songOptions[currentIndex] = songOptions[randomIndex];
+    songOptions[randomIndex] = temporaryValue;
+  
+  }
+
+  	playSong();
+  	console.log("Hey, I'm shuffling. Check me out.")
+
+});

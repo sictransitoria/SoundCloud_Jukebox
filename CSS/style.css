@@ -8,8 +8,27 @@ body {
 
 }
 
+header {
+	text-align: center;
+
+}
+
+header h1 {
+	margin: 40px 0px 0px 0px;
+	font-weight: 600;
+	font-size: 5em;
+	letter-spacing: 5px;
+
+}
+
+header h3 {
+	font-weight: 100;
+
+}
+
 .controls button {
-	font-size: 15px;
+	font-family: Avenir Next, 'sans-serif';
+	font-size: 18px;
 	font-weight: 100;
 	width: 100px;
 	height: 100px;
@@ -27,18 +46,18 @@ body {
 audio {
 	width: 641px;
 
-
 }
 
 .songoptions {
 	font-weight: 100;
-	font-size:15px;
-	margin: 100px 0px 0px 0px;
+	font-size: 30px;
+	margin: 50px 0px 0px 0px;
 
 }
 
 #option {
-	height: 20px;
+	height: 28px;
 	width: 195px;
 
 }
+
