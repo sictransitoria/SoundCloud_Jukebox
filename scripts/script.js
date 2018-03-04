@@ -107,7 +107,6 @@ shuffle.addEventListener("click", function() {
 	randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
-
     temporaryValue = songOptions[currentIndex];
    	songOptions[currentIndex] = songOptions[randomIndex];
     songOptions[randomIndex] = temporaryValue;
