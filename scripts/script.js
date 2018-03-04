@@ -96,7 +96,7 @@ function endOfTheSong(){
 
 var shuffle = document.getElementById("shuffle");
 shuffle.addEventListener("click", function() {
-	console.log("Shuffle Button Clicked");
+	console.log("Hey, I'm shuffling. Check me out.")
 
 	var currentIndex = songOptions.length, 
 					   randomIndex, 
@@ -114,6 +114,5 @@ shuffle.addEventListener("click", function() {
   }
 
   	playSong();
-  	console.log("Hey, I'm shuffling. Check me out.")
-
+  	
 });
