@@ -1,10 +1,13 @@
-// CUSTOM SCRIPTS FOR jukeBoxAssignment
+// CUSTOM SCRIPTS FOR jukeBox Assignment
 
-// Data just hangin' out
+// Data just hangin' out.
 
 var audioSong;
 var option;
 var playTime = 0;
+
+// Array of songs that will be played.
+
 const songOptions = ["All We Can Do", "Sparks", "Here I Dreamt I was an Architect", "So Long, Lonesome"];
 var i = 0;
 
@@ -17,7 +20,7 @@ var stop = document.getElementById("stop");
 var prev = document.getElementById("prev");
 var next = document.getElementById("next");
 
-// Function to allow songs to play
+// Function to allow songs to play.
 
 play.addEventListener("click", function() {
 	var option = document.getElementById("option").value;
@@ -30,7 +33,7 @@ play.addEventListener("click", function() {
 
 });
 
-// Function to pause songs when clicked
+// Function to pause songs.
 
 pause.addEventListener("click", function() {
 	console.log("Pause Button Clicked.");
@@ -39,7 +42,7 @@ pause.addEventListener("click", function() {
 
 });
 
-// Function to stop songs when clicked
+// Adding functionality when clicking the stop button.
 
 stop.addEventListener("click", function() { 
 	console.log("Stop Button Clicked.");
@@ -48,11 +51,15 @@ stop.addEventListener("click", function() {
 
 });
 
+// Adding functionality when clicking the previous button.
+
 prev.addEventListener("click", function() { 
 	console.log("Previous Button Clicked.");
 	prevSong();
 
 });
+
+// Adding functionality when clicking the next button.
 
 next.addEventListener("click", function() { 
 	console.log("Next Button Clicked.");
@@ -78,7 +85,7 @@ function prevSong(){
 		i = songOptions.length - 1;
 	}
 	console.log(i);
-	playSong();
+	plong();
 
 };
 

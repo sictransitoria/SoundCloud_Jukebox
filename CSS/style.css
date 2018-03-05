@@ -1,7 +1,7 @@
 /* STYLING FOR JUKEBOX ASSIGNMENT */
 
 body {
-	width: 70%;
+	width: 47%;
 	margin: 0 auto;
 	font-weight: 100;
 	font-family: Avenir Next, 'sans-serif';
@@ -17,7 +17,7 @@ header h1 {
 	margin: 40px 0px 0px 0px;
 	font-weight: 600;
 	font-size: 5em;
-	letter-spacing: 5px;
+	letter-spacing:6px;
 
 }
 
@@ -35,11 +35,16 @@ header h3 {
 	color: #000000;
 	border: none;
 	margin: 2px;
+	position: relative;
+
 
 }
 
+/* When a user hovers, over button, it will turn green! */
+
 .controls button:hover {
-	background-color: #e6f9ff;
+	background-color: #e6ffe6;
+
 
 }
 
@@ -50,13 +55,13 @@ audio {
 
 .songoptions {
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 15px;
 	margin: 50px 0px 0px 0px;
 
 }
 
 #option {
-	height: 28px;
+	height: 25px;
 	width: 195px;
 
 }
