@@ -85,7 +85,7 @@ function prevSong(){
 		i = songOptions.length - 1;
 	}
 	console.log(i);
-	plong();
+	playSong();
 
 };
 
