@@ -50,11 +50,10 @@ header h3 {
 .controls button:hover {
 	background-color: #e6f7ff;
 
-
 }
 
 audio {
-	width: 641px;
+	display: none;
 
 }
 
@@ -71,13 +70,11 @@ audio {
 
 	}
 
-
 }
 
 /* Mobile Display */
 
 @media only screen and (max-width: 500px) {
-
 
 body {
 	width: 85%;
@@ -117,7 +114,6 @@ header h3 {
 	margin: 2px;
 	position: relative;
 
-
 }
 
 /* When a user hovers, over button, it will turn blue! */
@@ -125,11 +121,10 @@ header h3 {
 .controls button:hover {
 	background-color: #e6f7ff;
 
-
 }
 
 audio {
-	width: 350px;
+	display: none;
 
 }
 

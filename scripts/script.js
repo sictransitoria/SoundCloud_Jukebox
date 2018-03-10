@@ -20,7 +20,7 @@ var stop = document.getElementById("stop");
 var prev = document.getElementById("prev");
 var next = document.getElementById("next");
 
-// Function to allow songs to play.
+// Adding functionality when clicking the play button.
 
 play.addEventListener("click", function() {
 	var option = document.getElementById("option").value;
@@ -33,7 +33,7 @@ play.addEventListener("click", function() {
 
 });
 
-// Function to pause songs.
+// Adding functionality when clicking the pause button.
 
 pause.addEventListener("click", function() {
 	console.log("Pause Button Clicked.");
