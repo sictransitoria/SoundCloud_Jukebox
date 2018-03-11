@@ -54,7 +54,7 @@ header h3 {
 }
 
 audio {
-	width: 641px;
+	display: none;
 
 }
 
@@ -80,7 +80,7 @@ audio {
 
 
 body {
-	width: 85%;
+	width: 80%;
 	margin: 0 auto;
 	font-weight: 100;
 	font-family: Avenir Next, 'sans-serif';
@@ -129,7 +129,7 @@ header h3 {
 }
 
 audio {
-	width: 350px;
+	display: none;
 
 }
 

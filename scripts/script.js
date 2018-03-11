@@ -42,7 +42,7 @@ pause.addEventListener("click", function() {
 
 });
 
-// Adding functionality when clicking the stop button.
+// Stop Button
 
 stop.addEventListener("click", function() { 
 	console.log("Stop Button Clicked.");
@@ -51,7 +51,7 @@ stop.addEventListener("click", function() {
 
 });
 
-// Adding functionality when clicking the previous button.
+// Previous Button
 
 prev.addEventListener("click", function() { 
 	console.log("Previous Button Clicked.");
@@ -59,7 +59,7 @@ prev.addEventListener("click", function() {
 
 });
 
-// Adding functionality when clicking the next button.
+// Next Button
 
 next.addEventListener("click", function() { 
 	console.log("Next Button Clicked.");
