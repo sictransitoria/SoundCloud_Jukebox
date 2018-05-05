@@ -49,6 +49,7 @@ header h3 {
 
 .controls button:hover {
 	background-color: #e6f7ff;
+	transition: .5s;
 
 
 }
@@ -61,7 +62,7 @@ audio {
 .songoptions {
 	font-weight: 100;
 	font-size: 15px;
-	margin: 50px 0px 0px 0px;
+	margin: 50px 0px 0px 30px;
 
 }
 
@@ -124,7 +125,6 @@ header h3 {
 
 .controls button:hover {
 	background-color: #e6f7ff;
-
 
 }
 
